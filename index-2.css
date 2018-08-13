@@ -1,0 +1,115 @@
+html,
+body{
+  font-family:  'Open Sans', Sans-Serif;
+  color: #2f4f4f;
+  background: url(3JIrQpJ - Imgur.jpg) no-repeat; /*background img from:https://imgur.com/download/3JIrQpJ, https://imgur.com/a/1stUgti)*/
+}
+#container {
+    width: 60%;
+    margin: auto;
+  }
+h1{
+  font-size: 300%;
+  color: #0000ff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 200%;
+  color: #0000ff;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+  img{
+    width: 100%;
+  }
+p1,p2,p3,p4{
+  color: #2f4f4f;
+}
+/*#ingredients:hover i,
+#ingredients:focus{
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform:rotateY(0deg);
+  transform: rotateY(0deg);
+  font-size: 300%;
+  color: #2f4f4f;
+  cursor: pointer;
+}
+#preparation:hover i,
+#preparation:focus{
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform:rotateY(0deg);
+  transform: rotateY(0deg);
+  font-size: 300%;
+  color: #2f4f4f;
+  cursor: pointer;
+  /*animation-name: spin;
+  animation-duration: .75s;
+}*/
+
+/*This is a CSS comment. It is used to document code*/
+/* To see this in action, uncomment the code below once you have commented out the JavaScript in index.html*/
+
+
+#ingredients:hover i, #preparation:hover i {
+   font-size: 300%;
+}
+
+.fa-lemon-o:hover,
+.fa-lemon-o:focus {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  transform: rotateY(180deg);
+  /*font-size: 20px;*/
+  color: #fff44f;
+  /*animation-name: spin;
+  animation-duration: .75s;*/
+}
+.fa-cutlery:hover,
+.fa-cutlery:focus {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  transform: rotateY(180deg);
+  /*/transform: rotateY(180deg);*/
+  /*font-size: 20px;*/
+  color: #C0C0C0;
+  /*animation-name: spin;
+  animation-duration: .200s;*/
+}
+.copyright{
+  margin-top: 70px;
+  background: #0000ff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+
+#container {
+  width: 90%;
+  margin: auto;
+}
+  h1{
+    font-size: 200%;
+    /*color: #0000ff;
+    font-weight: 100;
+    text-transform: uppercase;*/
+}
+  h2{
+    font-size: 100%;
+  }
+.copyright{
+  font-size: 70%;
+  }
+}
